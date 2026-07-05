@@ -1,0 +1,32 @@
+{
+  "users": [
+    { "id": "1", "name": "Amara Okafor", "email": "amara.okafor@nimbus.io", "role": "admin", "department": "Engineering", "status": "active", "lastActive": "2026-06-23T14:20:00Z", "avatarColor": "#6366f1" },
+    { "id": "2", "name": "Daniel Reyes", "email": "daniel.reyes@nimbus.io", "role": "manager", "department": "Sales", "status": "active", "lastActive": "2026-06-24T08:05:00Z", "avatarColor": "#0ea5e9" },
+    { "id": "3", "name": "Priya Nair", "email": "priya.nair@nimbus.io", "role": "member", "department": "Marketing", "status": "active", "lastActive": "2026-06-22T17:42:00Z", "avatarColor": "#10b981" },
+    { "id": "4", "name": "Lukas Müller", "email": "lukas.muller@nimbus.io", "role": "manager", "department": "Engineering", "status": "invited", "lastActive": "2026-06-20T11:10:00Z", "avatarColor": "#f59e0b" },
+    { "id": "5", "name": "Sofia Bianchi", "email": "sofia.bianchi@nimbus.io", "role": "member", "department": "Support", "status": "active", "lastActive": "2026-06-24T07:30:00Z", "avatarColor": "#ec4899" },
+    { "id": "6", "name": "Marcus Lindqvist", "email": "marcus.lindqvist@nimbus.io", "role": "member", "department": "Finance", "status": "suspended", "lastActive": "2026-05-30T09:00:00Z", "avatarColor": "#8b5cf6" },
+    { "id": "7", "name": "Hana Suzuki", "email": "hana.suzuki@nimbus.io", "role": "manager", "department": "Product", "status": "active", "lastActive": "2026-06-23T22:15:00Z", "avatarColor": "#ef4444" },
+    { "id": "8", "name": "Tomás Ferreira", "email": "tomas.ferreira@nimbus.io", "role": "member", "department": "Sales", "status": "active", "lastActive": "2026-06-24T06:48:00Z", "avatarColor": "#14b8a6" }
+  ],
+  "metrics": {
+    "mrr": 84200,
+    "mrrChangePct": 12.4,
+    "activeUsers": 1842,
+    "activeUsersChangePct": 4.1,
+    "churnPct": 2.3,
+    "churnChangePct": -0.5,
+    "openTickets": 37,
+    "openTicketsChangePct": -8.2,
+    "revenueSeries": [
+      { "month": "Jan", "value": 52000 }, { "month": "Feb", "value": 55800 },
+      { "month": "Mar", "value": 61200 }, { "month": "Apr", "value": 67400 },
+      { "month": "May", "value": 74900 }, { "month": "Jun", "value": 84200 }
+    ],
+    "signupsByPlan": [
+      { "plan": "Starter", "value": 980 },
+      { "plan": "Growth", "value": 612 },
+      { "plan": "Scale", "value": 250 }
+    ]
+  }
+}

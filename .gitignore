@@ -1,0 +1,23 @@
+# Dependencies
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Build output
+/dist
+/tmp
+/out-tsc
+/.angular/cache
+.angular
+
+# Editors / OS
+.idea
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# Env / logs
+*.local
+.env
+*.log
