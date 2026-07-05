@@ -4,7 +4,6 @@ import { provideHttpClient, withInterceptors } from '@angular/common/http';
 import { provideStore } from '@ngrx/store';
 import { provideEffects } from '@ngrx/effects';
 import { provideStoreDevtools } from '@ngrx/store-devtools';
-import { provideCharts, withDefaultRegisterables } from 'ng2-charts';
 import {
   LucideAngularModule, Cloud, LayoutDashboard, Users, Search, Bell, LogOut,
   DollarSign, TrendingUp, TrendingDown, LifeBuoy, LoaderCircle, UserPlus,
@@ -29,9 +28,6 @@ export const appConfig: ApplicationConfig = {
     provideStore({ [usersFeature.name]: usersFeature.reducer }),
     provideEffects([UsersEffects]),
     provideStoreDevtools({ maxAge: 25, logOnly: !isDevMode() }),
-
-    // Register Chart.js controllers/scales for ng2-charts (v5).
-    provideCharts(withDefaultRegisterables()),
 
     // Register only the icons we actually use (tree-shakeable).
     importProvidersFrom(

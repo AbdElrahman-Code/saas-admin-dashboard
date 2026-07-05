@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, OnInit, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BaseChartDirective } from 'ng2-charts';
+import { NgChartsModule } from 'ng2-charts';
 import { ChartConfiguration, ChartData } from 'chart.js';
 import { StatCardComponent } from '@shared/ui/stat-card.component';
 import { MetricsService } from '@core/services/metrics.service';
@@ -9,7 +9,7 @@ import { DashboardMetrics } from '@core/models';
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [CommonModule, BaseChartDirective, StatCardComponent],
+  imports: [CommonModule, NgChartsModule, StatCardComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <section class="space-y-6">

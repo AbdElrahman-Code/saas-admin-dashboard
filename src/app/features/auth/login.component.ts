@@ -60,7 +60,7 @@ import { AuthService } from '@core/services/auth.service';
 
           <div class="mt-6 rounded-lg border border-ink-200 bg-ink-50 p-3 text-xs text-ink-500">
             <p class="font-medium text-ink-600">Demo accounts (password: <span class="font-mono">nimbus123</span>)</p>
-            <p class="mt-1">amara.okafor@nimbus.io — admin · daniel.reyes@nimbus.io — manager · priya.nair@nimbus.io — member</p>
+            <p class="mt-1">amara.okafor&#64;nimbus.io — admin · daniel.reyes&#64;nimbus.io — manager · priya.nair&#64;nimbus.io — member</p>
           </div>
         </div>
       </div>
